@@ -657,7 +657,7 @@ body.main{
   min-height: 100vh;
   background-repeat: repeat-y;
   padding-top: 6rem;
-  background-image:url(/images/bg.png);
+  background-image:url(./images/bg.png);
   background-size:8rem
 }
 
