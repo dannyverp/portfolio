@@ -1,0 +1,7 @@
+.button {
+  @apply bg-orange-500 text-white font-bold py-2 px-4 border-b-4 border-orange-700 rounded;
+
+    &:hover {
+      @apply border-orange-500 bg-orange-400;
+  }
+}

@@ -1,0 +1,11 @@
+ul.socials {
+  @apply flex w-32 text-center my-3;
+
+  & > li {
+    @apply flex-grow;
+
+    & > a {
+      @apply text-xl;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+body.main {
+  @apply bg-gray-100 bg-left-top min-h-screen bg-repeat-y pt-24;
+  background-image: url(../img/bg.png);
+  background-size: theme('spacing.32');
+}
+
+div.container {
+  @apply flex-col mx-2 w-auto;
+  @screen lg {
+    @apply flex-row;
+  }
+  @screen sm {
+    @apply w-full mx-auto;
+  }
+}
+
+aside.sidebar {
+  @apply w-full flex flex-col items-center pt-0;
+  @screen lg {
+    @apply flex-initial w-2/5 mr-10 mb-4;
+  }
+
+  .profile-picture {
+    @apply w-40 -mt-20 shadow;
+    border-radius: theme('spacing.8');
+  }
+
+  article {
+    @apply items-center;
+    ul > li {
+      svg {
+        @apply mr-2;
+      }
+    }
+  }
+
+  article.download {
+    @apply p-0 overflow-hidden rounded-b;
+
+    a.button {
+      @apply w-full rounded-none text-center py-4;
+    }
+  }
+}
+
+main.content {
+  @apply flex-grow;
+  @screen lg {
+    @apply flex-grow w-full;
+  }
+}
+
+ul > li {
+  @apply my-3;
+}
