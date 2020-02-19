@@ -800,17 +800,17 @@ ul>li{
   justify-content: space-around
 }
 
-.card__vaardigheden{
+.card__skills{
   box-shadow: none;
   border-radius: 0.5rem
 }
 
-.card__vaardigheden article{
+.card__skills article{
   flex-direction: row;
   align-items: center
 }
 
-.card__vaardigheden aside{
+.card__skills aside{
   font-size: 3rem;
   padding-right: 1.25rem
 }
