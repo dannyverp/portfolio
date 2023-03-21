@@ -31,7 +31,7 @@
     "tailwindcss": "^1.1.4",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.11.3"
   },
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^5.12.1",
