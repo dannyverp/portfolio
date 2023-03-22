@@ -1,2 +1,5 @@
 import './sass/index.scss'
-import '@fortawesome/fontawesome-pro/js/all'
+import 'font-awesome/scss/font-awesome.scss'
+import '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/free-regular-svg-icons'
+import '@fortawesome/free-solid-svg-icons'

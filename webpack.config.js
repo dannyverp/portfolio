@@ -17,9 +17,6 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: process.env.NODE_ENV === 'development',
-            },
           },
           {
             // CSS to CommonJS (resolves CSS imports into exported CSS strings)
