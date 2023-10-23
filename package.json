@@ -9,7 +9,7 @@
     "build": "cross-env NODE_ENV=production webpack",
     "start:dev": "webpack-dev-server"
   },
-  "author": "Danny Verpoort <hallo@dannyverpoort.nl>",
+  "author": "Danny Verpoort <hallo@dannyverpoort.dev>",
   "license": "ISC",
   "devDependencies": {
     "@webpack-cli/serve": "^2.0.1",
